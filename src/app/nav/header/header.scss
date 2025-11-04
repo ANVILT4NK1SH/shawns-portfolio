@@ -1,0 +1,12 @@
+.header{
+  background-color: var(--mat-sys-primary);
+  color: var(--mat-sys-tertiary);
+}
+
+mat-icon{
+  color: var(--mat-sys-surface);
+}
+
+.header-spacer {
+  flex: 1 1 auto;
+}
