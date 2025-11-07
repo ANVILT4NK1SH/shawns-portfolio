@@ -1,10 +1,12 @@
 .header{
-  background-color: var(--mat-sys-primary);
+  background-color: var(--mat-sys-primary-container);
   color: var(--mat-sys-tertiary);
+  height: 64px;
+  margin: 0;
 }
 
 mat-icon{
-  color: var(--mat-sys-surface);
+  color: var(--mat-sys-tertiary);
 }
 
 .header-spacer {
