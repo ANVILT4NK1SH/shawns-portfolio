@@ -1,6 +1,12 @@
 <app-header/>
 <mat-sidenav-container class="side-nav-container">
-  <mat-sidenav mode="side" [opened]="navSharedService.currentIsSideNavOpen()"><app-side-nav /></mat-sidenav>
-  <mat-sidenav-content><router-outlet/></mat-sidenav-content>
+  <mat-sidenav mode="over" [opened]="navSharedService.currentIsSideNavOpen()" disableClose>
+    <app-side-nav />
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="app-background-container">
+      <router-outlet/>
+    </div>
+  </mat-sidenav-content>
 </mat-sidenav-container>
 

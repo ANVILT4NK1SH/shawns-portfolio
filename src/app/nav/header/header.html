@@ -1,10 +1,23 @@
 <mat-toolbar class="header">
-  <button matIconButton class="button menu-button" aria-label="Menu icon-button with menu icon" (click)="toggleMenu()">
+  <button
+  matIconButton
+  class="button menu-button"
+  aria-label="Menu icon-button with menu icon"
+  (click)="toggleMenu()"
+  >
     <mat-icon>menu</mat-icon>
   </button>
+
   <span>Shawn's Porfolio</span>
+
   <span class="header-spacer"></span>
-  <button matIconButton class="button contact-button" aria-label="Contacticon-button with cotact page icon">
+
+  <button
+  matIconButton
+  class="button contact-button"
+  aria-label="Contacticon-button with cotact page icon"
+  matTooltip="Contact"
+  >
     <mat-icon>contact_page</mat-icon>
   </button>
 </mat-toolbar>
