@@ -1,7 +1,7 @@
 .header{
   height: 64px;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.61);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .header-spacer {
@@ -18,8 +18,9 @@ button:hover{
   transition: .5s;
 }
 
-.mat-tooltip{
-  font-size: .25rem !important;
+mat-tooltip{
+  font-size: .25rem;
   padding: 0px;
   margin: 0px;
+  cursor: none;
 }

@@ -1,23 +1,47 @@
 <mat-toolbar class="header">
   <button
   matIconButton
-  class="button menu-button"
-  aria-label="Menu icon-button with menu icon"
-  (click)="toggleMenu()"
+  class="button home-button"
+  aria-label="Menu icon-button with home icon"
+  (click)="navigateToLanding()"
   >
-    <mat-icon>menu</mat-icon>
+    <mat-icon>home</mat-icon>
   </button>
 
-  <span>Shawn's Porfolio</span>
+  <span>Shawn Hartline</span>
 
   <span class="header-spacer"></span>
+  <div class="contact-btns-container">
 
-  <button
-  matIconButton
-  class="button contact-button"
-  aria-label="Contacticon-button with cotact page icon"
-  matTooltip="Contact"
-  >
-    <mat-icon>contact_page</mat-icon>
-  </button>
+    <button
+      matIconButton
+      class="button github"
+      aria-label="github icon-button with github icon"
+      matTooltip="Vist Github"
+      (click)="openGithub()"
+    >
+      <mat-icon svgIcon="github" />
+    </button>
+
+    <button
+      matIconButton
+      class="button email-button"
+      aria-label="email icon-button with email icon"
+      matTooltip="Visit LinkedIn"
+      (click)="openLinkedIn()"
+    >
+      <mat-icon svgIcon="linkedIn"/>
+    </button>
+
+    <button
+      matIconButton
+      class="button email-button"
+      aria-label="email icon-button with email icon"
+      matTooltip="Copy Email"
+      cdkCopyToClipboard="hartline.codes@gmail.com"
+      (click)="openSnackBar()"
+    >
+      <mat-icon>mail</mat-icon>
+    </button>
+  </div>
 </mat-toolbar>

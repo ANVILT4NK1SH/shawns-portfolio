@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { Landing } from './pages/landing/landing';
+import { Home } from './pages/home/home';
 
 export const routes: Routes = [
-  {path: '', component: Landing, pathMatch: 'full'},
-  {path: 'home', component: Landing}
+  {path: '', component: Home, pathMatch: 'full'},
+  {path: 'home', component: Home}
 ];
