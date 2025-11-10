@@ -1,12 +1,26 @@
 .header{
-  background-color: var(--mat-sys-primary);
-  color: var(--mat-sys-tertiary);
-}
-
-mat-icon{
-  color: var(--mat-sys-surface);
+  height: 64px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .header-spacer {
   flex: 1 1 auto;
+}
+
+button{
+  transition: .5s;
+}
+
+button:hover{
+  scale: 1.1;
+  color: rgb(30, 101, 255);
+  transition: .5s;
+}
+
+mat-tooltip{
+  font-size: .25rem;
+  padding: 0px;
+  margin: 0px;
+  cursor: none;
 }
