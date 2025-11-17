@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  padding: 5px;
+  margin: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 30%;
+  align-items: center;
+  justify-content: center;
+  rotate: -20deg;
+  top: 250px;
+}
+
