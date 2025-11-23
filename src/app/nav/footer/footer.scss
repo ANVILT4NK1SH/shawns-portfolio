@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  position: sticky;
+  height: 64px;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  transition: .5s;
+}
+
+button:hover {
+  scale: 1.1;
+  color: rgb(30, 101, 255);
+  transition: .5s;
+}

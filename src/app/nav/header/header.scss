@@ -2,6 +2,9 @@
   height: 64px;
   margin: 0;
   background-color: rgba(255, 255, 255, 0);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .header-spacer {
@@ -28,4 +31,10 @@ mat-tooltip{
 .name{
   scale: 1.5;
   margin-left: 3rem;
+}
+
+.email-button{
+  padding: 0px;
+  margin: 0px;
+  translate: 0px -6px;
 }
