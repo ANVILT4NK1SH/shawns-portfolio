@@ -28,4 +28,14 @@ body {
   font-style: normal;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 98vw;
+  min-height: 78vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 68px;
+}
+
 

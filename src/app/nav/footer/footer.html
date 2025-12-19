@@ -1,3 +1,7 @@
-<div class="container">
-  <button class="projects-btn" mat-flat-button>Projects</button>
+<div class="footer">
+  @if (showHome){
+    <button class="projects-btn" mat-flat-button [routerLink]="['/home']">Home</button>
+  } @else {
+    <button class="projects-btn" mat-flat-button [routerLink]="['/projects']">Projects</button>
+  }
 </div>
